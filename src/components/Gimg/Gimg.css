@@ -1,0 +1,38 @@
+.card-divg {
+    width: 351.75px;
+    height: 234.15px;
+    border: 6px solid white;
+    border-radius: 20px;
+    background: #fff7ed;
+}
+
+.info-divg {
+    padding: 2rem;
+}
+
+.info-divg h4{
+    font-size: 19px;
+    margin-top: 10px;
+    margin-bottom: 7px;
+    text-align: center;
+}
+
+
+
+.card-divg:hover{
+    cursor: pointer;
+    transform: scale(1.20);
+    border-color: #ffffff;
+}
+
+
+.imgg {
+    width: 351.75px;
+    height: 234.15px;
+    border-radius: 30px;
+}
+
+@media (max-width: 798px) {
+
+    
+}

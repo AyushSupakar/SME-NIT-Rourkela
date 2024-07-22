@@ -1,0 +1,50 @@
+.card-div {
+    width: 270px;
+    height: 450px;
+    border: 7px solid white;
+    border-radius: 20px;
+    background: #fff7ed;
+}
+
+.info-div {
+    padding: 0 2rem;
+}
+
+.info-div h4{
+    font-size: 19px;
+    margin-top: 10px;
+    margin-bottom: 7px;
+    text-align: center;
+}
+
+.info-div p{
+    font-size: 15px;
+    font-weight: 600;
+    color: #f06236;
+    text-align: center;
+}
+
+.card-div:hover{
+    cursor: pointer;
+    transform: scale(1.07);
+    border-color: #f79862;
+}
+
+.img {
+    width: 256px;
+    height: 330px;
+    border-radius: 20px;
+}
+
+@media (max-width: 798px) {
+
+    .info-div{
+        margin: 0;
+    }
+
+    .info-div h4{
+        font-size: 19px;
+        margin-top: 10px;
+        margin-bottom: 7px;
+    }
+}

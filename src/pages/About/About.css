@@ -1,0 +1,99 @@
+.about {
+  padding: 5rem;
+  padding-top: 10rem;
+  background: #22313f;
+  width: 95%;
+  -webkit-box-shadow: 0px 0px 63px 21px rgba(240, 98, 54, 0.69);
+  -moz-box-shadow: 0px 0px 63px 21px rgba(240, 98, 54, 0.69);
+  box-shadow: 0px 0px 63px 21px rgba(240, 98, 54, 0.69);
+  border-radius: 30px;
+  margin-bottom: 50px;
+  text-align: justify;
+}
+
+.about-p {
+  line-height: 1.7;
+  text-align: justify;
+  color: white;
+  font-size: 16px;
+      padding: 20px, auto;
+}
+
+.about-parent {
+  background: #f79862;
+  margin-bottom: 40px;
+  padding: 20px, auto;
+}
+
+.about-div {
+  display: flex;
+  padding: 5rem;
+
+}
+
+.about-1,
+.about-2 {
+  flex: 1;
+  padding: 20px, auto;
+ 
+}
+
+.objective {
+  padding: 5rem;
+  background: #22313f;
+  width: 95%;
+  -webkit-box-shadow: 0px 0px 63px 21px rgba(240, 98, 54, 0.69);
+  -moz-box-shadow: 0px 0px 63px 21px rgba(240, 98, 54, 0.69);
+  box-shadow: 0px 0px 63px 21px rgba(240, 98, 54, 0.69);
+  border-radius: 30px;
+  margin-bottom: 50px;
+}
+
+.objective ul li{
+    list-style-type: circle;
+    color: white;
+    margin-bottom: 10px;
+    font-size: 17px;
+}
+
+@media (max-width: 798px) {
+  .about {
+    padding: 2rem;
+    padding-top: 7rem;
+  }
+
+  .objective {
+    padding: 2rem;
+  }
+
+  .objective ul li{
+    list-style-type: circle;
+    color: white;
+    margin-bottom: 10px;
+    font-size: 15px;
+   }
+
+  .about-p {
+    font-size: 14px;
+    padding: 20px, auto;
+    text-align: justify;
+  }
+
+  .about-div {
+    display: flex;
+    flex-direction: column;
+    padding: 5rem; 
+   
+  }
+
+  .about-2 {
+    padding: 20px, auto;
+    
+
+  }
+  .about-1 {
+    padding: 20px, auto;
+    
+
+  }
+}

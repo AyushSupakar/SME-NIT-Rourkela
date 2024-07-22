@@ -1,0 +1,92 @@
+.contact-div {
+    display: flex;
+    padding: 5rem;
+  padding-top: 10rem;
+  background: #22313f;
+  width: 95%;
+  -webkit-box-shadow: 0px 0px 63px 21px rgba(240, 98, 54, 0.69);
+  -moz-box-shadow: 0px 0px 63px 21px rgba(240, 98, 54, 0.69);
+  box-shadow: 0px 0px 63px 21px rgba(240, 98, 54, 0.69);
+  border-radius: 30px;
+  margin-bottom: 50px;
+}
+
+.form-div {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.info-div {
+    flex: 1;
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.map-div {
+    margin-bottom: 50px;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+}
+
+.map {
+    height: 300px;
+    width: 100%;
+}
+
+.contact-label {
+    font-size: 18px;
+    color: white;
+    margin-bottom: 1rem;
+    width: 100%;
+}
+
+.contact-form-div {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 3rem;
+}
+
+.contact-input {
+    width: 350px;
+    height: 40px;
+    border: 2px solid bisque;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
+.send-form {
+    width: 90px;
+    height: 40px;
+    margin-top: -20px;
+    border-radius: 10px;
+    font-size: 17px;
+    font-weight: 700;
+    border: none;
+    background: bisque;
+}
+
+.send-form:hover{
+    cursor: pointer;
+    background: rgba(240, 98, 54, 0.69);
+    color: white;
+}
+
+
+@media (max-width: 798px) {
+    .contact-div{
+        width: 98%;
+        flex-direction: column;
+        padding-top: 9rem;
+    }
+
+    .info-div{
+        margin-top: 50px;
+    }
+}

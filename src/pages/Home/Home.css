@@ -1,0 +1,215 @@
+.story-parent {
+    margin-top: 70px;
+    margin-bottom: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.story-div{
+    background:#22313F;
+    display: flex;
+    flex-direction: row;
+    padding: 4rem;
+    width: 90%;
+    -webkit-box-shadow: 0px 0px 63px 21px rgba(240,98,54,0.69);
+-moz-box-shadow: 0px 0px 63px 21px rgba(240,98,54,0.69);
+box-shadow: 0px 0px 63px 21px rgba(240,98,54,0.69);
+border-radius: 30px;
+justify-content: space-between;
+}
+
+.story-1{
+    flex: 1.5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    margin-right: 80px;
+}
+
+.story-2{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+
+.minare-div {
+    background-image: linear-gradient(174deg, #f79862, 70%, #fff7ed calc(70% + 35px));
+    padding: 2rem 4rem;
+    padding-bottom: 17rem;
+}
+.minare-divl {
+   
+    padding: 2rem 4rem;
+    padding-bottom: 25rem;
+    background-color: rgba(51, 51, 51, 0.882);
+    background-image: url(../../Images/Gallary/Slide10fin.jpg); 
+    
+    
+    width: 90%;
+    height : 40%;
+    background-size: cover;
+    background-position: center;
+    /*background-size: auto;*/
+    margin: auto;
+    
+}
+
+.minare-content {
+    display: flex;
+    padding: 4rem;
+    gap: 0.5;
+}
+
+.minare-sec1{
+   
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    bottom: 10%;
+}
+
+.minare-sec2{
+    flex: 1.5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.minare-secl{
+    flex: 1.5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.button-18 {
+  margin-top: 30px;
+  align-items: center;
+  background-color: #22313F;
+  border: 0;
+  border-radius: 100px;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-flex;
+  font-size: 17px;
+  font-weight: 500;
+  justify-content: center;
+  line-height: 20px;
+  max-width: 480px;
+  min-height: 40px;
+  min-width: 0px;
+  overflow: hidden;
+  padding: 0px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+  touch-action: manipulation;
+  transition: background-color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, box-shadow 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: middle;
+  margin: 0%;
+  
+}
+
+.button-18:hover,
+.button-18:focus { 
+  background-color: #16437E;
+  color: #ffffff;
+}
+
+.button-18:active {
+  background: #09223b;
+  color: rgb(255, 255, 255, .7);
+}
+
+.button-18:disabled { 
+  cursor: not-allowed;
+  background: rgba(0, 0, 0, .08);
+  color: rgba(0, 0, 0, .3);
+}
+
+.minare-img{
+    height: 280px;
+    width: 350px;
+    border-radius: 30px;
+}
+
+.facad-img{
+    height: 230px;
+    width: 250px;
+    border-radius: 30px;
+}
+
+.message-div {
+    background:#22313F;
+    border-radius: 50px;
+    padding: 4rem;
+    width: 90%;
+    margin-bottom: 50px;
+    -webkit-box-shadow: 0px 0px 63px 21px rgba(240,98,54,0.69);
+-moz-box-shadow: 0px 0px 63px 21px rgba(240,98,54,0.69);
+box-shadow: 0px 0px 63px 21px rgba(240,98,54,0.69);
+border-radius: 30px;
+}
+
+.button-18:hover{
+    cursor: pointer;
+}
+
+
+@media (max-width: 798px) {
+    .story-div{
+        flex-direction: column;
+        padding: 5rem 2rem;
+        width: 95%;
+    }
+
+    .story-1{
+        margin-right: 0;
+        margin-bottom: 50px;
+    }
+
+    .minare-div {
+        background: #f79862;
+        padding: 2rem 4rem;
+        margin-bottom: 50px;
+    }
+
+    .minare-content {
+        display: flex;
+        gap: 0.5;
+        padding: 2rem;
+        flex-direction: column;
+    }
+
+    .minare-img{
+        height: 180px;
+        width: 250px;
+        margin-bottom: 50px;
+    }
+
+    .message-2 {
+        margin-top: 30px;
+    }
+
+    .facad-img{
+        height: 200px;
+        width: 210px;
+        border-radius: 30px;
+    }
+
+    .message-div {
+        padding: 1rem;
+        padding-bottom: 5rem;
+    }
+}
